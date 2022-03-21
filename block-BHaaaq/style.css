@@ -46,90 +46,44 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-body{
-    margin: 30px;
-}
+
 h1{
     font-size: xx-large;
     font-style: bold;
+    margin: 20px;
    
 }
-.box1{
+.box{
     width: 150px;
     height: 100px;
-    background-color: red;
+    background-color: crimson;
     border: 5px solid black;
-    margin: 30px 30px 30px 0px;
+    display: inline-block;
+    margin: 20px;
 }
-.box2{
-    width: 150px;
-    height: 100px;
-    background-color: red;
-    border: 5px solid black;
-    margin: 30px 30px 30px 0px;
-    float: left;
+.double{
+    border-style: double;
 }
-.box3{
-    width: 150px;
-    height: 100px;
-    background-color: red;
-    border: 5px dashed black;
-    margin: 30px 30px 30px 0px;
-    float: left;
+.dashed{
+    border-style: dashed;
 }
-.box4{
-    width: 150px;
-    height: 100px;
-    background-color: red;
-    border: 5px dotted black;
-    margin: 220px 30px 30px 0px;
-    float: none;
+.dotted{
+    border-style: dotted;
 }
-.box5{
-    width: 120px;
-    height: 80px;
-    background-color: red;
-    margin: -110px 250px 320px -30px;
-    float: right;
+.none{
+    border-style: none;
 }
-.box6{
+.text{
     width: 350px;
     height: 500px;
-    background-color: red;
     border-top: 20px solid blue;
-    border-right: 20px solid silver;
+    border-right: 20px solid grey;
     border-bottom: 20px solid yellow;
     border-left: 20px solid green;
     outline: 20px solid purple;
-    margin: -230px 30px 30px 0px;
-    float: left;
-   
-        
+    margin: 30px;
+    background-color: crimson;
 }
-p{
-    font-size: x-large;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
